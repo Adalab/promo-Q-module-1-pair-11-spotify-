@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+padding: 0;}
+
 header {
     background-color: black;
     width: 100%;
@@ -7,31 +11,95 @@ header {
     width: 100px;
     margin: 10px;
 }
+.barra {
+    display: flex;
+    justify-content: space-between;
+}
 .menu {
     background-color: black;
     width: 30px;
+    height: 40px;
+    margin-right: 8px;
+    margin-top: 5px;
     }
-div {
-    background-color: rgb(127, 214, 255);
-    width: 100%;
-    height: 300px;
-}
+
 .titulo1 {
     color: white;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
+
     
 }
+.escucha {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 10px;
+    
+}
+.azul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(82, 156, 241);
+    width: 100%;
+    height: 300px;
+   
+       
+}
+
+    
 .boton {
-    background-color: green;
+    background-color: rgb(38, 183, 88);
     color: white;
     border-radius: 10px;
     border: none;
-    width: 100%;
+    width: 80%;
     height: 30px;
-    
+    margin: 10px;
 }
+.lorem    {
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
 .titulo2 {
     text-align: center;
     font-size: 20px;
     font-family: sans-serif;
 
+}
+.blanco {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.caja1 {
+    display: flex;
+    flex-direction: column;
+    
+    }
+.caja2 {
+        display: flex;
+        flex-direction: column;
+}
+.lista {
+    list-style: none;
+}
+.viñeta1 {
+    width: 100px;
+    justify-content: center;
+}
+.viñeta2 {
+    width: 100px;
+}
+.viñeta3 {
+    width: 100px;
+}
+
+.viñeta4 {
+    width: 100px;
 }
